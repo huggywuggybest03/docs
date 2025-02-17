@@ -1,11 +1,14 @@
 # WORK IN PROGRESS
+
 **Welcome to this guide! This guide is all about the *Pterodactyl API* and how it works.**
 
 ## Windows Docs
 (make sure you own a ptero panel)
 
 *Things Needed:*
+
 **API Key** - Normally located at https://panel.yourdomain.com/account/api (replace panel.yourdomain.com with your panel)
+
 **cURL** - Probably already in Windows. If not installed, [download it here](https://curl.se/download.html).
 
 ### Server Resouces
@@ -21,7 +24,6 @@ curl -X GET "https://panel.yourdomain.com/api/client/servers/server_id_here/reso
 ```
 
 **Expected Response:**
-*200:*
 ```json
 {
   "object": "stats",
@@ -77,7 +79,6 @@ curl -X GET "https://panel.yourdomain.com/api/client/servers/server_id/files/lis
 ```
 
 **Expected Response:**
-*200:*
 ```json
 {
   "object": "list",
