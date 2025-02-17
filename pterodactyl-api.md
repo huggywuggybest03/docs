@@ -58,7 +58,7 @@ curl -X GET "https://panel.yourdomain.com/api/client/servers/server_id_here/reso
 **What the errors can be caused by:**
 - Incorrect endpoint or method: If the API endpoint or HTTP method (GET, POST, PUT, DELETE, etc.) is wrong.
 - Permissions issues: Lack of necessary permissions for the API key/token or user to perform the requested operation.
-- CSRF token mismatch: This can happen when you're making requests without the correct CSRF token in place (you mentioned this earlier).
+- CSRF token mismatch: This can happen when you're making requests without the correct CSRF token in place.
 - Server overload or resource constraints: If the server is overloaded or running out of resources (CPU, memory, etc.), it might throw an error.
 - API rate limiting: The API might be rejecting requests due to exceeding rate limits.
 - API misconfiguration: Internal configuration issues on the server-side API.
@@ -131,7 +131,7 @@ curl -X GET "https://panel.yourdomain.com/api/client/servers/server_id/files/lis
 **What the errors can be caused by:**
 - Incorrect endpoint or method: If the API endpoint or HTTP method (GET, POST, PUT, DELETE, etc.) is wrong.
 - Permissions issues: Lack of necessary permissions for the API key/token or user to perform the requested operation.
-- CSRF token mismatch: This can happen when you're making requests without the correct CSRF token in place (you mentioned this earlier).
+- CSRF token mismatch: This can happen when you're making requests without the correct CSRF token in place.
 - Server overload or resource constraints: If the server is overloaded or running out of resources (CPU, memory, etc.), it might throw an error.
 - API rate limiting: The API might be rejecting requests due to exceeding rate limits.
 - API misconfiguration: Internal configuration issues on the server-side API.
